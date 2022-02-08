@@ -1,0 +1,42 @@
+import random
+
+for i in range(3, 24, 3):
+    print(i)
+    
+print ("insert a number")
+num = int(input())
+kit = 0
+while kit < num:
+    print("SNURFLE")
+    kit+=1
+
+    
+def MonsterGen(biome):
+spawn = random.randrange(1, 100)
+
+if biome == d:
+    if spawn<20:
+        print(" a husk spawned")
+    elif spawn<30:
+        print("a spider spawned")
+    elif spawn<50:
+        print("a skeleton appeared")
+    
+                
+if biome == f:
+    if spawn<30:
+        print(" a zombie spawned")
+    elif spawn<30:
+        print("a skeleton spawned")
+    elif spawn<10:
+        print("a witch spawned")
+    elif spawn <70:
+            print("nothing spawned")
+        else:
+        
+choice ='a'
+while choice!= 'q':
+    print("enter looting level, or 'q' to quit")
+    choice = input()
+    if choice != 'q':
+        ZombieDrop(int(choice))
